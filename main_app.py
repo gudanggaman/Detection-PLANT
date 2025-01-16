@@ -17,10 +17,8 @@ import tensorflow as tf
 model = load_model('plant_disease_model.h5')
 
 # Name of Classes
-CLASS_NAMES = ('Apple___Apple_scab', 'Apple___Black_rot', 'Apple___Cedar_apple_rust', 'Apple___healthy', 'Blueberry___healthy',
-               'Cherry_(including_sour)___Powdery_mildew', 'Cherry_(including_sour)___healthy', 'Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot',
-               'Corn_(maize)___Common_rust_', 'Corn_(maize)___Northern_Leaf_Blight', 'Corn_(maize)___healthy', 'Grape___Black_rot', 'Grape___Esca_(Black_Measles)',
-               'Grape___Leaf_blight_(Isariopsis_Leaf_Spot)', 'Grape___healthy')
+CLASS_NAMES = ('Tomato-Bacterial_spot', 'Potato-Barly blight', 'Corn-Common_rust')
+
 # Setting Title of App
 st.title("Plant Disease Detection")
 st.markdown("Upload an image of the plant leaf")
